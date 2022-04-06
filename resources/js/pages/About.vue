@@ -1,6 +1,8 @@
 <template>
     <div>
-        <h1>inertiajs is {{ about_us }}</h1>
+           <h1 class="text-3xl font-bold underline">
+     Another Inertia linked page
+  </h1>
 
         <Link href="/">Go to Home</Link>
     </div>
@@ -11,7 +13,6 @@ import { Link } from "@inertiajs/inertia-vue3";
 export default {
     components: {
         Link,
-        props: ["about_us"],
     },
 };
 </script>
